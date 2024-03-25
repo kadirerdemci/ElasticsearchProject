@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "ElasticProject.Api.Controllers.ValuesController",
+    "Method": "AddCity",
+    "RelativePath": "api/Values/AddCity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cities",
+        "Type": "System.Collections.Generic.List\u00601[[ElasticProject.Data.Entity.Cities, ElasticProject.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElasticProject.Api.Controllers.ValuesController",
+    "Method": "CheckIndexExists",
+    "RelativePath": "api/Values/CheckIndexExists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElasticProject.Api.Controllers.ValuesController",
+    "Method": "CreateIndex",
+    "RelativePath": "api/Values/CreateIndex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElasticProject.Api.Controllers.ValuesController",
+    "Method": "DeleteIndex",
+    "RelativePath": "api/Values/DeleteIndex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElasticProject.Api.Controllers.ValuesController",
+    "Method": "GetAllDocuments",
+    "RelativePath": "api/Values/GetAllDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElasticProject.Api.Controllers.ValuesController",
+    "Method": "SearchCities",
+    "RelativePath": "api/Values/SearchCities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
